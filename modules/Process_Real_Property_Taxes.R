@@ -1,5 +1,8 @@
-rm(list = ls())
-library(stringr)
+#####################################
+# Read in property taxes
+#####################################
+rm(list = ls()) # clear the workspace (delete all objects)
+library(stringr) # load in necessary packages/libraries
 library(readr)
 library(plyr)
 library(dplyr)
