@@ -6,9 +6,9 @@ library(stringr) # load in necessary packages/libraries
 library(readr)
 library(plyr)
 library(dplyr)
-root_dir = "~/Dropbox/Classes/D3JS"
-root_dir = path.expand(root_dir)
-sub_fol = "Module_1"
+root_dir = "~/Dropbox/Classes/D3JS" # setting up directories
+root_dir = path.expand(root_dir) # expanding out the ~ - so it's /users/muschel
+sub_fol = "Module_1" #
 mod_dir = file.path(root_dir, sub_fol)
 stopifnot(file.exists(mod_dir))
 

@@ -1,10 +1,25 @@
 
-Help using ?
-Describing a help page
+# Finding help
+- Help using `?function_name`
+- Describing a help page
+- `help(package = "haven")`
+- Google using `R` and `CRAN` tags
 
 # Classes of objects
-- Data frame vs. a matrix
-- Vectors
+I use the words referencing, indexing, and subsetting interchangeably.   They may have slightly different meanings, but the idea is to extract part of an object.  
+- Vectors (scalars are 1-length vectors)
+    - referencing using single bracket `vec[2]`
+    - referencing using names if named `vec["elem_2"]`
+- Matrix
+    - row/column referencing
+- Data frame 
+    - `data.frame` vs. `matrix` notation
+    - `data.frame` descends from `matrix` but not other way around
+        - so `df[,1]` works on a `data.frame`, but `mat$col1` does not work for a `matrix`
+- Lists
+    - Generic holder of things
+    - 
+- Generic classes (such as `lm` or `ROCR`)
 
 # Programming 
 - for loops
