@@ -28,7 +28,7 @@ Describing a help page
 # Getting data into R
 
 - haven package - [https://github.com/hadley/haven](https://github.com/hadley/haven)
-- foreign package - [https://cran.r-project.org/package=foreign](https://cran.r-project.org/package=foreign)
+- foreign package - [https://cran.r-project.org/web/packages/foreign/index.html](https://cran.r-project.org/web/packages/foreign/index.html)
 - readr package - [https://github.com/hadley/readr](https://github.com/hadley/readr)
 
 
