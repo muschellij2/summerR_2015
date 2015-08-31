@@ -1,8 +1,8 @@
 ---
 title: "Variables"
 subtitle: Module 2
-author: "Andrew Jaffe"
-date: "June 15, 2015"
+author: "John Muschelli"
+date: '`r Sys.Date()`'
 output:
   ioslides_presentation:
     css: styles.css
@@ -77,14 +77,6 @@ Note, when you type your command, R inherently thinks you want to print the resu
 ```
 
 ## R as a calculator
-
-Try evaluating the following:
-
-* `2 + 2 * 3 / 4 -3`
-* `2 * 3 / 4 * 2`
-* `2^4 - 1`
-
----
 
 * You can create variables from within the R environment and from files on your computer
 * R uses "=" or "<-" to assign values to a variable name

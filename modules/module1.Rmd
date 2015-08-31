@@ -1,88 +1,14 @@
 ---
 title:  Introduction to R
 subtitle: Module 1
-author: Andrew Jaffe
-date: June 15, 2015
+author: John Muschelli
+date: '`r Sys.Date()`'
 output:
   ioslides_presentation:
     css: styles.css
   pdf_document:
     toc: false
 --- 
-
-## Welcome to class!
-
-1. Introductions
-2. Class overview
-3. Getting R up and running
-
-## About Me
-
-Investigator, Lieber Institute for Brain Development
-Assistant Professor, Department of Mental Health, JHSPH
-
-PhD in Epidemiology, MHS in Bioinformatics
-
-Email: ajaffe@jhu.edu
-
-## TA
-
-Leonardo Collado-Torres
-
-5th year PhD student in Biostatistics
-
-Email: lcollado@jhu.edu
-
-## TA
-
-Shaun Truelove
-
-4th year PhD student in Epidemiology
-
-Email: struelo1@jhu.edu
-
-## Introductions
-
-What do you hope to get out of the class?
-
-Why R?
-
-## Course Website
-
-http://www.aejaffe.com/summerR_2015/
-
-Materials will be uploaded the night before class
-
-## Learning Objectives
-
-- Reading data into R
-- Recoding and manipulating data
-- Writing R functions and using add-on packages
-- Making exploratory plots
-- Understanding basic programming syntax
-- Performing basic statistical tests
-
-## Course Format
-
-* 3 modules per class session, each approximately 1 hour
-    * "Interactive" Lecture with RStudio + slides
-    * Lab/Practical experience
-
-## Grading
-
-1. Attendance/Participation: 20%
-2. Nightly Homework: 3 x 15%
-3. Final "Project": 35% 
-
-## Grading
-
-* **Homework 1**: Due Tuesday 6/16 by 5pm  
-
-* **Homework 2**: Due Wednesday 6/17 by class
-
-* **Homework 3**: Due Thursday 6/18 by class
-
-* **Project**: Due Friday 7/3 by 5pm
 
 ## What is R?
 
