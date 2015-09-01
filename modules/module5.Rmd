@@ -1,8 +1,8 @@
 ---
 title: "Data I/O + Subset"
 subtitle: Module 5
-author: "Andrew Jaffe"
-date: "June 16, 2015"
+author: "John Muschelli"
+date: '`r Sys.Date()`'
 output:
   ioslides_presentation:
     css: styles.css
@@ -72,6 +72,7 @@ Packages are add-ons that are commonly written by users comprised of functions, 
 Some useful data input/output packages
 
 * foreign package - read data from Stata/SPSS/SAS
+* haven - read data from Stata/SPSS/SAS
 * sas7bdat - read SAS data
 * xlsx - reads in XLS files
 

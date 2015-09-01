@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2015-06-16" />
+  <meta name="date" content="2015-09-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,7 +37,7 @@
       // Author information
       presenters: [
             {
-        name:  'Andrew Jaffe' ,
+        name:  'John Muschelli' ,
         company: '',
         gplus: '',
         twitter: '',
@@ -91,7 +91,7 @@
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">June 16, 2015</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2015-09-01</p>
           </hgroup>
   </slide>
 
@@ -162,6 +162,7 @@ write.csv(circ2, file=&quot;../data/charmcitycirc_reduced.csv&quot;, row.names=F
 
 <ul>
 <li>foreign package - read data from Stata/SPSS/SAS</li>
+<li>haven - read data from Stata/SPSS/SAS</li>
 <li>sas7bdat - read SAS data</li>
 <li>xlsx - reads in XLS files</li>
 </ul>
@@ -195,7 +196,7 @@ library(xlsx) # or require(xlsx)</pre>
 
 <pre class = 'prettyprint lang-r'>ls()</pre>
 
-<pre >## [1] &quot;circ&quot;  &quot;circ2&quot; &quot;file&quot;</pre>
+<pre >## [1] &quot;circ&quot;  &quot;circ2&quot; &quot;req&quot;</pre>
 
 </article></slide><slide class=''><hgroup><h2>Saving R Data</h2></hgroup><article  id="saving-r-data-2">
 
@@ -214,7 +215,7 @@ tmp</pre>
 
 <pre class = 'prettyprint lang-r'>ls()</pre>
 
-<pre >## [1] &quot;circ&quot;  &quot;circ2&quot; &quot;file&quot;  &quot;tmp&quot;</pre>
+<pre >## [1] &quot;circ&quot;  &quot;circ2&quot; &quot;req&quot;   &quot;tmp&quot;</pre>
 
 <p>Note that this saves the R object names as character strings in an object called &#39;tmp&#39;, which is nice if you already have a lot of items in your working directory, and/or you don&#39;t know exactly which got loaded in</p>
 

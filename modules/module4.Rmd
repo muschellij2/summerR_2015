@@ -1,8 +1,8 @@
 ---
 title: "Data Input"
 subtitle: Module 4
-author: "Andrew Jaffe"
-date: "June 15, 2015"
+author: "John Muschelli"
+date: '`r Sys.Date()`'
 output:
   ioslides_presentation:
     css: styles.css

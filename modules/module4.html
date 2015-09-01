@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2015-06-15" />
+  <meta name="date" content="2015-09-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,7 +37,7 @@
       // Author information
       presenters: [
             {
-        name:  'Andrew Jaffe' ,
+        name:  'John Muschelli' ,
         company: '',
         gplus: '',
         twitter: '',
@@ -91,7 +91,7 @@
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">June 15, 2015</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2015-09-01</p>
           </hgroup>
   </slide>
 
@@ -163,7 +163,7 @@ read.table( file, # filename
 ##     fill = TRUE, comment.char = &quot;&quot;, ...) 
 ## read.table(file = file, header = header, sep = sep, quote = quote, 
 ##     dec = dec, fill = fill, comment.char = comment.char, ...)
-## &lt;bytecode: 0x00000000126a2208&gt;
+## &lt;bytecode: 0x7fea53970d20&gt;
 ## &lt;environment: namespace:utils&gt;</pre>
 
 <p>Note: the <code>...</code> designates extra/optional arguments that can be passed to <code>read.table()</code> if needed</p>
@@ -243,28 +243,40 @@ getwd()
 
 <pre class = 'prettyprint lang-r'>dir(&quot;./&quot;) # shows directory contents</pre>
 
-<pre >##  [1] &quot;module1.html&quot;    &quot;module1.pdf&quot;     &quot;module1.R&quot;      
-##  [4] &quot;module1.Rmd&quot;     &quot;module10.html&quot;   &quot;module10.pdf&quot;   
-##  [7] &quot;module10.R&quot;      &quot;module10.Rmd&quot;    &quot;module10_cache&quot; 
-## [10] &quot;module10_files&quot;  &quot;module11.html&quot;   &quot;module11.pdf&quot;   
-## [13] &quot;module11.R&quot;      &quot;module11.Rmd&quot;    &quot;module11_cache&quot; 
-## [16] &quot;module11_files&quot;  &quot;module2.html&quot;    &quot;module2.pdf&quot;    
-## [19] &quot;module2.R&quot;       &quot;module2.Rmd&quot;     &quot;module3.html&quot;   
-## [22] &quot;module3.pdf&quot;     &quot;module3.R&quot;       &quot;module3.Rmd&quot;    
-## [25] &quot;module4.html&quot;    &quot;module4.pdf&quot;     &quot;module4.R&quot;      
-## [28] &quot;module4.Rmd&quot;     &quot;module5.html&quot;    &quot;module5.pdf&quot;    
-## [31] &quot;module5.R&quot;       &quot;module5.Rmd&quot;     &quot;module6.html&quot;   
-## [34] &quot;module6.pdf&quot;     &quot;module6.R&quot;       &quot;module6.Rmd&quot;    
-## [37] &quot;module7.html&quot;    &quot;module7.pdf&quot;     &quot;module7.R&quot;      
-## [40] &quot;module7.Rmd&quot;     &quot;module8.html&quot;    &quot;module8.pdf&quot;    
-## [43] &quot;module8.R&quot;       &quot;module8.Rmd&quot;     &quot;module9.html&quot;   
-## [46] &quot;module9.pdf&quot;     &quot;module9.R&quot;       &quot;module9.Rmd&quot;    
-## [49] &quot;module9_files&quot;   &quot;renderModules.R&quot; &quot;styles.css&quot;</pre>
+<pre >##  [1] &quot;mapping_module.html&quot;           &quot;mapping_module.pdf&quot;           
+##  [3] &quot;mapping_module.R&quot;              &quot;mapping_module.Rmd&quot;           
+##  [5] &quot;module1.html&quot;                  &quot;module1.pdf&quot;                  
+##  [7] &quot;module1.R&quot;                     &quot;module1.Rmd&quot;                  
+##  [9] &quot;module10.html&quot;                 &quot;module10.pdf&quot;                 
+## [11] &quot;module10.R&quot;                    &quot;module10.Rmd&quot;                 
+## [13] &quot;module11.html&quot;                 &quot;module11.pdf&quot;                 
+## [15] &quot;module11.R&quot;                    &quot;module11.Rmd&quot;                 
+## [17] &quot;module12.html&quot;                 &quot;module12.pdf&quot;                 
+## [19] &quot;module12.R&quot;                    &quot;module12.Rmd&quot;                 
+## [21] &quot;module2.html&quot;                  &quot;module2.pdf&quot;                  
+## [23] &quot;module2.R&quot;                     &quot;module2.Rmd&quot;                  
+## [25] &quot;module3.html&quot;                  &quot;module3.pdf&quot;                  
+## [27] &quot;module3.R&quot;                     &quot;module3.Rmd&quot;                  
+## [29] &quot;module4.html&quot;                  &quot;module4.pdf&quot;                  
+## [31] &quot;module4.R&quot;                     &quot;module4.Rmd&quot;                  
+## [33] &quot;module5.html&quot;                  &quot;module5.pdf&quot;                  
+## [35] &quot;module5.R&quot;                     &quot;module5.Rmd&quot;                  
+## [37] &quot;module6.html&quot;                  &quot;module6.pdf&quot;                  
+## [39] &quot;module6.R&quot;                     &quot;module6.Rmd&quot;                  
+## [41] &quot;module7.html&quot;                  &quot;module7.pdf&quot;                  
+## [43] &quot;module7.R&quot;                     &quot;module7.Rmd&quot;                  
+## [45] &quot;module8.html&quot;                  &quot;module8.pdf&quot;                  
+## [47] &quot;module8.R&quot;                     &quot;module9.html&quot;                 
+## [49] &quot;module9.pdf&quot;                   &quot;module9.R&quot;                    
+## [51] &quot;module9.Rmd&quot;                   &quot;Process_Real_Property_Taxes.R&quot;
+## [53] &quot;renderModules.R&quot;               &quot;styles.css&quot;</pre>
 
 <pre class = 'prettyprint lang-r'>dir(&quot;..&quot;)</pre>
 
-<pre >## [1] &quot;data&quot;       &quot;docs&quot;       &quot;hw&quot;         &quot;index.html&quot; &quot;index.Rmd&quot; 
-## [6] &quot;labs&quot;       &quot;modules&quot;    &quot;pdf&quot;        &quot;README.md&quot;</pre>
+<pre >##  [1] &quot;data&quot;               &quot;docs&quot;               &quot;hw&quot;                
+##  [4] &quot;index.html&quot;         &quot;index.Rmd&quot;          &quot;labs&quot;              
+##  [7] &quot;modules&quot;            &quot;pdf&quot;                &quot;README.md&quot;         
+## [10] &quot;summerR_2015.Rproj&quot;</pre>
 
 </article></slide><slide class=''><hgroup><h2>Working Directory</h2></hgroup><article  id="working-directory-1">
 
