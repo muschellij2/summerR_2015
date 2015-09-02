@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2015-06-16" />
+  <meta name="date" content="2015-09-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,7 +37,7 @@
       // Author information
       presenters: [
             {
-        name:  'Andrew Jaffe' ,
+        name:  'John Muschelli' ,
         company: '',
         gplus: '',
         twitter: '',
@@ -91,7 +91,7 @@
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">June 16, 2015</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2015-09-02</p>
           </hgroup>
   </slide>
 
@@ -174,6 +174,53 @@ circSorted[1:5,]</pre>
 ## 3        2672.0 17580.0
 ## 4        1301.0 16714.0
 ## 5         844.5 16366.5</pre>
+
+</article></slide><slide class=''><hgroup><h2>Sorting and ordering with DPLYR</h2></hgroup><article  id="sorting-and-ordering-with-dplyr" class="smaller">
+
+<pre class = 'prettyprint lang-r'># Load in dplyr
+library(dplyr)</pre>
+
+</article></slide><slide class=''><hgroup><h2>Sorting and ordering with DPLYR</h2></hgroup><article  id="sorting-and-ordering-with-dplyr-1" class="smaller">
+
+<pre class = 'prettyprint lang-r'>library(dplyr)
+circSorted2 = arrange(circ2, desc(daily))
+circSorted2[1:5,]</pre>
+
+<pre >##        day       date orangeAverage purpleAverage greenAverage
+## 1 Saturday 06/16/2012        6322.0        7797.0       3338.5
+## 2   Friday 06/15/2012        6926.5        8089.5       3485.0
+## 3 Thursday 06/14/2012        5617.5        6521.0       2769.5
+## 4   Friday 09/07/2012        5717.5        7007.0       2688.5
+## 5   Friday 06/08/2012        5782.5        6881.5       2858.0
+##   bannerAverage   daily
+## 1        4617.0 22074.5
+## 2        3450.0 21951.0
+## 3        2672.0 17580.0
+## 4        1301.0 16714.0
+## 5         844.5 16366.5</pre>
+
+<pre class = 'prettyprint lang-r'>all.equal(circSorted2[1:5,], circSorted[1:5,])</pre>
+
+<pre >## [1] TRUE</pre>
+
+</article></slide><slide class=''><hgroup><h2>Sorting and ordering with DPLYR</h2></hgroup><article  id="sorting-and-ordering-with-dplyr-2" class="smaller">
+
+<pre class = 'prettyprint lang-r'># Default is ascending
+circSorted_asc = arrange(circ2, orangeAverage, desc(purpleAverage))
+circSorted_asc[1:5,]</pre>
+
+<pre >##        day       date orangeAverage purpleAverage greenAverage
+## 1   Monday 10/29/2012           0.0             0          0.0
+## 2  Tuesday 10/30/2012           0.0             0          0.0
+## 3 Thursday 11/22/2012           0.0             0          0.0
+## 4   Monday 02/08/2010         284.0            NA           NA
+## 5 Thursday 11/24/2011         525.5           581        173.5
+##   bannerAverage daily
+## 1             0    NA
+## 2             0    NA
+## 3             0    NA
+## 4            NA   284
+## 5            NA  1280</pre>
 
 </article></slide><slide class=''><hgroup><h2>Creating categorical variables</h2></hgroup><article  id="creating-categorical-variables">
 

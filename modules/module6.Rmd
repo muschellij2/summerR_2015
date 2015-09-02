@@ -1,8 +1,8 @@
 ---
 title: "Data Manipulation"
 subtitle: Module 6
-author: "Andrew Jaffe"
-date: "June 16, 2015"
+author: "John Muschelli"
+date: '`r Sys.Date()`'
 output:
   ioslides_presentation:
     css: styles.css
@@ -21,6 +21,7 @@ Now we are going to cover manipulating your data and summarizing it using basic 
 `sort(x, decreasing=FALSE)`: 'sort (or order) a vector or factor (partially) into ascending or descending order.' Note that this returns an object that has been sorted/ordered
 
 `order(...,decreasing=FALSE)`: 'returns a permutation which rearranges its first argument into ascending or descending order, breaking ties by further arguments.' Note that this returns the indices corresponding to the sorted data.
+
 
 ## Sorting and ordering
 
@@ -58,6 +59,33 @@ Note that the row names refer to their previous values. You can do something lik
 rownames(circSorted)=NULL
 circSorted[1:5,]
 ```
+
+## Sorting and ordering with DPLYR {.smaller}
+
+```{r sortVorder3.2, message = FALSE}
+# Load in dplyr
+library(dplyr)
+```
+
+## Sorting and ordering with DPLYR {.smaller}
+
+```{r sortVorder3.1}
+library(dplyr)
+circSorted2 = arrange(circ2, desc(daily))
+circSorted2[1:5,]
+all.equal(circSorted2[1:5,], circSorted[1:5,])
+```
+
+## Sorting and ordering with DPLYR {.smaller}
+
+```{r sortVorder3.3}
+# Default is ascending
+circSorted_asc = arrange(circ2, orangeAverage, desc(purpleAverage))
+circSorted_asc[1:5,]
+```
+
+
+
 
 ## Creating categorical variables
 
