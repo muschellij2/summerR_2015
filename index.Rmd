@@ -11,54 +11,35 @@ Summer R 2015
 
 Instructor: 
 
-* [Andrew Jaffe](http://www.aejaffe.com/)
+* [John Muschelli](http://biostat.jhsph.edu/~jmuschel/)
 
-Teaching assitants:
 
-* [Shaun Truelove](http://www.iddynamics.jhsph.edu/people.html)
-* [Leonardo Collado-Torres](http://lcolladotor.github.io/)
-
-Class:
-
-* 8:30am - 12:00pm in room W4013
-
-Course Info:
-
-* Course number: 140.886.11
-* Course name: Introduction to R for Public Health Researchers
-
-# Important links
-
-* [Syllabus](http://www.aejaffe.com/summerR_2015/docs/Syllabus-summerR-student.doc)
-* [Course survey](http://jhsph.co1.qualtrics.com/SE/?SID=SV_726A1IBrXffLDEN)
 
 # Schedule
 
 | Day  | Date  |  Module  | Resources  |  Description |
 |---|---|---|---|---|
-| 1  | 2015-06-15  |   | [Try R](http://tryr.codeschool.com/)  | Finish all modules  |
-| 1  | 2015-06-15  | Module 1  | [lecSlides](modules/module1.html), [lecNotes](modules/module1.pdf)  | Introduction to R  |
-| 1  | 2015-06-15  | Module 2  | [lecSlides](modules/module2.html), [lecNotes](modules/module2.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module2.R), [lab](labs/module2_lab.R), [key](labs/module2_lab_key.R)| R variables  |
-| 1  | 2015-06-15  | Module 3  | [lecSlides](modules/module3.html), [lecNotes](modules/module3.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module3.R), [lab](labs/module3_lab.R), [key](labs/module3_lab_key.R)  | Data Classes  |
+| 1  |   |   | [Try R](http://tryr.codeschool.com/)  | Finish all modules  |
+| 1  |   | Module 1  | [lecSlides](modules/module1.html), [lecNotes](modules/module1.pdf)  | Introduction to R  |
+| 1  |   | Module 2  | [lecSlides](modules/module2.html), [lecNotes](modules/module2.pdf), [code](modules/module2.R), [lab](labs/module2_lab.R), [key](labs/module2_lab_key.R)| R variables  |
+| 1  |  | Module 3  | [lecSlides](modules/module3.html), [lecNotes](modules/module3.pdf), [code](modules/module3.R), [lab](labs/module3_lab.R), [key](labs/module3_lab_key.R)  | Data Classes  |
 |---|---|---|---|---|
-| 2  | 2015-06-16  | HW2  | [code](hw/Homework2.R)  |   |
-| 2  | 2015-06-16  | Module 4  | [lecSlides](modules/module4.html), [lecNotes](modules/module4.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module4.R), [lab](labs/module4_lab.R), [key](labs/module4_lab_review.html)  | Data Input  |
-| 2  | 2015-06-16  | Module 5  | [lecSlides](modules/module5.html), [lecNotes](modules/module5.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module5.R), [lab](labs/module5_lab.txt)  | Data I/O + Subset |
-| 2  | 2015-06-16  | Module 6  | [lecSlides](modules/module6.html), [lecNotes](modules/module6.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module6.R), [lab](labs/module6_lab.R), [key](labs/module6_lab_key.R) | Manipulation |
+| 2  |   | Module 4  | [lecSlides](modules/module4.html), [lecNotes](modules/module4.pdf), [code](modules/module4.R), [lab](labs/module4_lab.R), [key](labs/module4_lab_review.html)  | Data Input  |
+| 2  |   | Module 5  | [lecSlides](modules/module5.html), [lecNotes](modules/module5.pdf), [code](modules/module5.R), [lab](labs/module5_lab.txt)  | Data I/O + Subset |
+| 2  |  | Module 6  | [lecSlides](modules/module6.html), [lecNotes](modules/module6.pdf), [code](modules/module6.R), [lab](labs/module6_lab.R), [key](labs/module6_lab_key.R) | Manipulation |
 |---|---|---|---|---|
-| 3  | 2015-06-17  | Homework 3  | [HW](hw/homework3.R) | Homework |
-| 3  | 2015-06-17  | Module 7  | [lecSlides](modules/module7.html), [lecNotes](modules/module7.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module7.R), [lab](labs/module7_lab.R), [key](labs/module7_lab_key.R)  | Summarization |
-| 3  | 2015-06-17  | Module 8  | [lecSlides](modules/module8.html), [lecNotes](modules/module8.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module8.R), [lab](labs/module8_lab.R), [key](labs/module8_lab_key.R)  | Visualization |
+| 3  |  | Homework 3  | [HW](hw/homework3.R) | Homework |
+| 3  |  | Module 7  | [lecSlides](modules/module7.html), [lecNotes](modules/module7.pdf), [code](modules/module7.R), [lab](labs/module7_lab.R), [key](labs/module7_lab_key.R)  | Summarization |
+| 3  |   | Module 8  | [lecSlides](modules/module8.html), [lecNotes](modules/module8.pdf), [code](modules/module8.R), [lab](labs/module8_lab.R), [key](labs/module8_lab_key.R)  | Visualization |
 |---|---|---|---|---|
-| 4  | 2015-06-18  | Module 9  | [lecSlides](modules/module9.html), [lecNotes](modules/module9.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module9.R), [lab](labs/module9_lab.R), [key](labs/module9_lab_key.R)  | Data cleaning |
-| 4  | 2015-06-18  | Module 10  | [lecSlides](modules/module10.html), [lecNotes](modules/module10.pdf),  [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module10.R) | Lists and functions |
-| 4  | 2015-06-18  | Module 11  | [lecSlides](modules/module11.html), [lecNotes](modules/module11.pdf),  [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module11.R) | Statistics |
+| 4  |   | Module 9  | [lecSlides](modules/module9.html), [lecNotes](modules/module9.pdf), [code](modules/module9.R), [lab](labs/module9_lab.R), [key](labs/module9_lab_key.R)  | Data cleaning |
+| 4  | | Module 10  | [lecSlides](modules/module10.html), [lecNotes](modules/module10.pdf),  [code](modules/module10.R) | Lists and functions |
+| 4  |   | Module 11  | [lecSlides](modules/module11.html), [lecNotes](modules/module11.pdf),  [code](modules/module11.R) | Statistics |
 |---|---|---|---|---|
-| 5  | 2015-06-19  | Module 12 lecture | [lecSlides](modules/module12.html), [lecNotes](modules/module12.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/module12.R)  | Reproducible research  |
+| 5  | 2015-06-19  | Module 12 lecture | [lecSlides](modules/module12.html), [lecNotes](modules/module12.pdf), [code](modules/module12.R)  | Reproducible research  |
 | 5  | 2015-06-19  | Module 12 lab | [lab](labs/module12_lab.R), [illusion R Markdown](labs/illusion.Rmd), [illusion Word](labs/illusion.docx), [part 2 Rmd](labs/module12_lab_part2.Rmd), [part 2 html](labs/module12_lab_part2.html), [key](labs/module12_lab_key.R) | Reproducible research (practical) |
-| 5  | 2015-06-19  | Module 13  | [lecSlides](modules/mapping_module.html), [lecNotes](modules/mapping_module.pdf), [code](https://github.com/andrewejaffe/summerR_2015/blob/gh-pages/modules/mapping_module.R), [lab](labs/mapping_module_lab.R), [key](labs/mapping_module_labkey.R) | Mapping Tools  |
+| 5  | 2015-06-19  | Module 13  | [lecSlides](modules/mapping_module.html), [lecNotes](modules/mapping_module.pdf), [code](modules/mapping_module.R), [lab](labs/mapping_module_lab.R), [key](labs/mapping_module_labkey.R) | Mapping Tools  |
 |---|---|---|---|---|
-| 5  | 2015-06-19  | Course survey | [Survey link](http://jhsph.co1.qualtrics.com/SE/?SID=SV_726A1IBrXffLDEN) | |
 
 <!-- Add links to the rest of the material as we go
 
@@ -67,7 +48,7 @@ Course Info:
 -->
 
 Feel free to submit typos/errors/etc via the github repository associated with the class: 
-https://github.com/andrewejaffe/summerR_2015
+https://github.com/muschellij2/summerR_2015
 
 ```{r, eval = FALSE, echo = FALSE}
 ## Render this file:
